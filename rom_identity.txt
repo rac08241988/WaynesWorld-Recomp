@@ -1,0 +1,14 @@
+# ROM identity for Wayne's World (USA) — the single source of truth.
+# Read by the build (snesrecomp_rom_identity.h), tools/regen.sh and packaging.
+# Digests are of the bare image (copier header stripped).
+
+display_name    = Wayne's World
+rom_file        = Wayne's World (U) [!].smc
+expected_crc32  = 0d426a15
+expected_md5    = 45a4bca91f659b9020d9f69faf53ae23
+expected_sha1   = 0681d155d6ba4c315afbb52fbb3b7c053a0935ff
+expected_sha256 = 56ba3d585bf6b701e342d86a0bd164ab0a97dfbd5df46b3a964506842633459c
+rom_size        = 1048576
+mapping         = lorom
+region          = USA
+game_id         = waynesworld-usa
